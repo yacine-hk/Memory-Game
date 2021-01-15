@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="right">
+    <div class="control-buttons">
+      <span>Start Game</span>
+    </div>
+    <div class="info-container">
+      <div class="name">
+        Hello: <span class="player-name"></span>
+      </div>
+      <div id="timer" class="timer"></div>
+      <div class="tries">
+        Wrong Tries: <span></span>
+      </div>
+    </div>
+    <div class="memory-game-blocks">
+      <div class="game-block" data-tech="alien">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/alien.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-tech="alien">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/alien.png" alt="">
+        </div>
+      </div>
+
+
+      <div class="game-block" data-tech="amazon">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/amazon.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-tech="amazon">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/amazon.png" alt="">
+        </div>
+      </div>
+
+
+
+      <div class="game-block" data-tech="apple">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/apple.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-tech="apple">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/apple.png" alt="">
+        </div>
+      </div>
+
+
+
+      <div class="game-block" data-tech="dell">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/dell.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-tech="dell">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/dell.png" alt="">
+        </div>
+      </div>
+
+
+
+      <div class="game-block" data-tech="intel">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/intel.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-tech="intel">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/intel.png" alt="">
+        </div>
+      </div>
+
+
+
+      <div class="game-block" data-tech="poncho">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/poncho.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-tech="poncho">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/poncho.png" alt="">
+        </div>
+      </div>
+
+
+
+      <div class="game-block" data-tech="slack">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/slack.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-tech="slack">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/slack.png" alt="">
+        </div>
+      </div>
+
+
+      <div class="game-block" data-tech="soundcloud">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/soundcloud.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-tech="soundcloud">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/soundcloud.png" alt="">
+        </div>
+      </div>
+
+      <div class="game-block" data-tech="tech">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/tech.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-tech="tech">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/tech.png" alt="">
+        </div>
+      </div>
+
+      <div class="game-block" data-tech="wacom">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/wacom.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-tech="wacom">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/wacom.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="score-border">
+    <div class="Pname">Player name :</div>
+    <!-- <div class="Pscore">Player score :</div> -->
+    <div id="message"></div>
+    <div id="score"></div>
+  </div>
+
+  <audio id="success" src="audio/success.mp3" preload="auto"></audio>
+  <audio id="fail" src="audio/fail.mp3" preload="auto"></audio>
+  <audio id="main" src="audio/main.mp3" preload="auto"></audio>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
