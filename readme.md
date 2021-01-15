@@ -2,6 +2,6 @@
 
 ## Instructions
 
-- The project under development
-- The project has manuy issues
+* The project under development
+* The project has manuy issues
 * issues must be corrected sooner :)
